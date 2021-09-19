@@ -103,4 +103,4 @@ var t,e=arguments[3];!function(e,n){"object"==typeof exports&&"undefined"!=typeo
 },{"simple-notify":"nBqT","simple-notify/dist/simple-notify.min.css":"uHJG"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/pagination.js"),require("./js/modal.js"),require("./js/datalist.js");var e=require("./js/refs"),r=require("./js/search-render-service"),s=require("./js/to-top-btn");require("./js/notify.js"),s.toTop.createBtnAndEvnListeners(),window.addEventListener("DOMContentLoaded",()=>r.renderService.initialAtStartup(e.refsGen)),console.log("массив всех объектов-событий, полученых с сервера и отрендереных на экране: refsGen.tempEventsArray ",e.refsGen.tempEventsArray),console.log("Привіт, світ!))) Життя ДУЖЕ брутальне!(((");
 },{"./sass/main.scss":"clu1","./js/pagination.js":"o8lo","./js/modal.js":"RSqK","./js/datalist.js":"IyzA","./js/refs":"VyiV","./js/search-render-service":"KI7K","./js/to-top-btn":"y0XA","./js/notify.js":"Kazp"}]},{},["Focm"], null)
-//# sourceMappingURL=/event-booster/src.c57e42b9.js.map
+//# sourceMappingURL=/event-booster/src.ea35d3b5.js.map
