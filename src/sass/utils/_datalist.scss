@@ -75,12 +75,12 @@
   }
 }
 
-.datalist-country::-webkit-scrollbar {
+::-webkit-scrollbar {
   width: 11px;
   background-color: transparent;
 }
 
-.datalist-country::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
   border-radius: 11px;
   height: 43px;
   background-color: var(--form-input-text);
@@ -88,7 +88,7 @@
   border: 3px solid transparent;
 }
 
-.datalist-country::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
   border-radius: 11px;
   height: 43px;
   background-color: transparent;
