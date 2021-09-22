@@ -1,0 +1,41 @@
+{
+  "name": "event-booster",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://6karai9.github.io/event-booster",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /event-booster/",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build",
+    "commit": "git commit -m",
+    "precommit": "git add .",
+    "postcommit": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/parcel-project-template.git"
+  },
+  "keywords": [],
+  "author": "Group 13",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+  },
+  "devDependencies": {
+    "@pnotify/core": "^5.2.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.6.2",
+    "sass": "^1.32.8"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "gh-pages": "^3.2.3",
+    "simple-notify": "^0.5.4",
+    "spin.js": "^4.1.1",
+    "throttle-debounce": "^3.0.1"
+  }
+}
