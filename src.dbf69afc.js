@@ -101,4 +101,4 @@ const e={modalTeam:document.querySelector(".students-team"),teamModal:document.q
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss"),require("./js/pagination.js"),require("./js/modal.js"),require("./js/datalist.js");var e=require("./js/refs"),r=require("./js/search-render-service"),s=require("./js/to-top-btn");require("./js/notify.js"),require("./js/formPlus.js"),require("./js/team-modal-service"),s.toTop.createBtnAndEvnListeners(),window.addEventListener("DOMContentLoaded",()=>r.renderService.initialAtStartup(e.refsGen)),console.log("Привіт, світ!))) Життя ДУЖЕ брутальне!((( Але й химерне!)))");
 },{"./sass/main.scss":"clu1","./js/pagination.js":"o8lo","./js/modal.js":"RSqK","./js/datalist.js":"IyzA","./js/refs":"VyiV","./js/search-render-service":"KI7K","./js/to-top-btn":"y0XA","./js/notify.js":"Kazp","./js/formPlus.js":"QVsV","./js/team-modal-service":"GnhU"}]},{},["Focm"], null)
-//# sourceMappingURL=/event-booster/src.12c08e50.js.map
+//# sourceMappingURL=/event-booster/src.dbf69afc.js.map
